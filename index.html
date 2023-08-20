@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Luke Piper</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/0beb6a8632.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <span class="nav_title"> Portfolio || Luke Piper </span>
+        <div class="nav_links">
+            <a href="index.html" target="_self"> Home </a>
+            <a href="#about" target="_self"> About </a>
+            <a href="#project-portfolio" target="_self"> Projects </a>
+            <a href="#contact" target="_self"> Contact </a>
+
+        </div>
+    </nav>
+    <section class="title-section">
+        <h1 class="title-header">Luke Piper</h1>
+        <h2 class="title-subheader">Software Developer</h2>
+        <canvas id="canvas">
+        </canvas>
+        <script src="js/retroHills.js"></script>
+    </section>
+    <main>
+        <hr id="about" style="opacity: 0; margin: 0 5em 2em">
+        <section id="about-me">
+            <div class="about-container">
+                <div class="about-header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="profile-photo">
+                        <img src="img/profile_photo.jpg" alt="Luke Piper">
+                    </div>
+                    <div class="about-text">
+                        <p>Hi, I'm Luke Piper. I am a Software Developer from Wellington, New Zealand. I am currently
+                            studying a Bachelor of Science in Computer Science at the Otago University. I am passionate
+                            about software development and enjoy learning new technologies and languages. I am currently
+                            looking for a Software Developer role to further my skills and knowledge.</p>
+                        <a href="Technical-Resume.pdf" target="_blank">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="project-portfolio">
+        <section>
+            <h2 class="portfolio-header"> Projects </h2>
+            <section class="project-cards">
+                
+                <div class="card" id="basketball-toss">
+                    <div class="card-content">
+                        <img src="img/basketballtoss-home.png" alt="Basketball Toss Menu Screen">
+                        <h2>Basketball Toss</h2>
+                    </div>
+                    <p>Basketball toss is an enjoyable interactive game developed in Processing, inspired by the popular
+                        mobile game Paper Toss.</p>
+                </div>
+
+                <div class="card" id="chips-challenge">
+                    <div class="card-content">
+                        <img src="img/lvl1.png" alt="Chips Challenge gameplay">
+                        <h2>Chips Challenge</h2>
+                    </div>
+                    <p>Chips Challenge is a famous tile-based puzzle game. The requirement for this project was to
+                        develop our own Chips Challenge.</p>
+                </div>
+
+                <div class="card" id="andie">
+                    <div class="card-content">
+                        <img src="img/andie.png" alt="ANDIE app">
+                        <h2>ANDIE - Image Editor</h2>
+                    </div>
+                    <p>ANDIE is a non-destructive image editor program. A non-destructive image editor stores the
+                        original data of the image and maintains a stack (list) of operations applied to the image.</p>
+                </div>
+                <div class="card" id="etudes">
+                    <div class="card-content">
+                        <img src="img/whereintheworld.png" alt="GeoJSON for whereintheworld">
+                        <h2>Etudes</h2>
+                    </div>
+                    <p>A collection of my individual Etudes I completed throughout a course. Etudes are a collection of
+                        problems aimed to test your computational problem-solving.</p>
+                </div>
+                <div class="card" id="birds">
+                    <div class="card-content">
+                        <img src="img/birds-of-aotearoa.png" alt="Birds Of Aoteroa">
+                        <h2>Birds Of Aoteroa</h2>
+                    </div>
+                    <p>Birds of Aotearoa is a webpage that allows user to search and learn about birds local to New
+                        Zealand. Users can search, filter and sort from a collection of 68 birds. The webpage is
+                        designed to be responsive and accessible on computer and mobile devices. The website was built
+                        on HTML, CSS and Javascript.</p>
+                </div>
+
+                <div class="card" id="eventures">
+                    <div class="card-content">
+                        <img src="img/whereintheworld.png" alt="Event Finder C++ App">
+                        <h2>Event Finder Map</h2>
+                    </div>
+                    <p>Eventures aims to combine EventFinda event data along with Land Information New Zealand
+                        geographical map data to superimpose event data on a visual interface for a unique and valuable
+                        exploration and discovery application.</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <hr id="contact" style="opacity: 0; margin: 0 5em 2em">
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link"
+                    href="https://www.linkedin.com/in/luke-piper-5533b4287/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/lukePiper03"
+                    target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="mailto:luke.piper2003@gmail.com"
+                    target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#project-portfolio">Projects</a></li>
+            <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+        </ul>
+    </footer>
+
+    <div id="fade_section"></div>
+
+</body>
+
+</html>
