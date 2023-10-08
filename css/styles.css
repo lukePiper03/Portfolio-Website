@@ -199,6 +199,12 @@ canvas {
   justify-content: center;
 }
 
+.project-cards a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
 .card{
   width: 30em;
   aspect-ratio: 16/12;
